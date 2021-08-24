@@ -1,10 +1,3 @@
-## Minimal path to awesome
-
-1. Open WSL2 terminal
-2. git clone https://github.com/felix-antoine-dion/recettes.git
-3. docker run --rm --volume="$PWD:/srv/jekyll" --publish [::1]:4000:4000 jekyll/jekyll:pages jekyll serve
-
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/felix-antoine-dion/recettes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
