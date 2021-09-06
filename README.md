@@ -2,8 +2,7 @@
 
 1. Open WSL2 terminal
 2. git clone https://github.com/felix-antoine-dion/recettes.git
-3. docker run --rm --volume="$PWD:/srv/jekyll" --publish [::1]:4000:4000 jekyll/jekyll:pages jekyll serve
-
+3. cd app && npm run serve
 
 ## Welcome to GitHub Pages
 
