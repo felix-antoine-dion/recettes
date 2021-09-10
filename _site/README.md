@@ -27,7 +27,7 @@ npm run lint
 
 ### Run docker images after build
 ```
-npm run docker
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:pages jekyll serve
 ```
 
 ### Customize configuration
